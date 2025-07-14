@@ -17,14 +17,14 @@ const Footer = () => {
                         <div className="flex flex-col items-start justify-start md:max-w-[300px]">
                             <div className="flex items-center gap-2">
                                 <Image
-                                    src="/icons/icon.svg"
-                                    alt="Verve"
+                                    src="/icons/agencygrow.png"
+                                    alt="AgencyGrow"
                                     width={32}
                                     height={32}
                                     className="size-6"
                                 />
                                 <span className="text-lg lg:text-xl font-medium">
-                                    Verve
+                                    AgencyGrow
                                 </span>
                             </div>
                             <p className="text-muted-foreground mt-4 text-sm">
