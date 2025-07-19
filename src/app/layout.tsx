@@ -3,6 +3,7 @@ import { base, heading } from "@/constants/fonts";
 import { cn } from "@/lib";
 import "@/styles/globals.css";
 import { generateMetadata } from "@/utils";
+import LenisProvider from '@/components/LenisProvider'
 
 export const metadata = generateMetadata();
 
@@ -20,9 +21,11 @@ export default function RootLayout({
                     heading.variable,
                 )}
             >
-                <Providers>
-                    {children}
-                </Providers>
+                  <LenisProvider>
+                    <Providers>
+                        {children}
+                    </Providers>
+                </LenisProvider>
             </body>
         </html>
     );
